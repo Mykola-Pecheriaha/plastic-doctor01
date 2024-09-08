@@ -1,0 +1,65 @@
+.containerEnAugement {
+  background-color: #dee7b6;
+  height: 75vh;
+  padding: 20px;
+}
+
+.containerEnAugement h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative; /* Додаємо позиціонування */
+  padding-bottom: 10px; /* Відступ від тексту до лінії */
+}
+
+.containerEnAugement h3::after {
+  content: '';
+  display: block;
+  width: 90%; /* Довжина лінії (50% ширини заголовка) */
+  height: 2px; /* Висота лінії */
+  background-color: #0a07eb; /* Колір лінії (чорний) */
+  margin: 0 auto; /* Центрування лінії */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.enAugement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Відстань між текстом і зображенням */
+  padding: 20px; /* Внутрішні відступи */
+}
+.imgEnAugment {
+  flex: 1; /* Контейнер для зображення займає 50% ширини */
+  max-width: 45%; /* Максимальна ширина контейнера */
+  display: flex; /* Додаємо flexbox для управління зображенням */
+  align-items: center; /* Вирівнюємо зображення по вертикалі */
+  justify-content: center; /* Вирівнюємо зображення по горизонталі */
+}
+
+.imgEnAugment img {
+  width: 100%;
+  height: 100%; /* Займає всю висоту контейнера */
+  object-fit: cover; /* Заповнює контейнер, зберігаючи пропорції */
+}
+
+.textEnAugemen {
+  flex: 1; /* Займає 50% ширини контейнера */
+  font-size: 18px; /* Розмір тексту */
+  line-height: 1.6; /* Висота рядка для зручного читання */
+  max-width: 55%; /* Максимальна ширина текстового блоку */
+}
+
+.textEnAugemen {
+  flex: 1;
+  padding-right: 25px;
+  font-size: 23px;
+  font-weight: 400;
+  box-sizing: border-box; /* Враховує padding у ширині */
+  /* overflow-y: auto; Додає скроллбар при перевищенні висоти */
+  max-height: 100%; /* Обмеження висоти для лівого блоку */
+}

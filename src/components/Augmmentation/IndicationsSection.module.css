@@ -1,0 +1,47 @@
+.indicacioContainer {
+  background-color: #f3ecad;
+  height: 80vh;
+  padding: 20px;
+}
+
+.indicacioContainer h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative; /* Додаємо позиціонування */
+  padding-bottom: 10px; /* Відступ від тексту до лінії */
+}
+
+.indicacioContainer h3::after {
+  content: '';
+  display: block;
+  width: 90%; /* Довжина лінії (50% ширини заголовка) */
+  height: 2px; /* Висота лінії */
+  background-color: #0a07eb; /* Колір лінії (чорний) */
+  margin: 0 auto; /* Центрування лінії */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.indicacioAugment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 60vh;
+}
+
+.leftIndicatio {
+  flex: 1;
+  padding-right: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.indicatioImg {
+  flex: 1;
+  text-align: right;
+}

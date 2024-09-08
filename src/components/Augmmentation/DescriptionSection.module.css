@@ -1,0 +1,28 @@
+.containerAugment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: inline-block;
+}
+
+.descriptAugment h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 4vh;
+  color: rgb(51, 20, 231);
+}
+
+.textImplant {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(52, 11, 235);
+  text-align: start;
+}

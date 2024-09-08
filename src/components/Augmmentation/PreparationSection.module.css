@@ -1,0 +1,41 @@
+.preparatioContainer {
+  height: 90vh;
+  padding: 20px;
+  background-color: #044b97;
+}
+
+.preparationReduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 1.7em;
+  margin-bottom: 4vh;
+  color: rgb(253, 252, 252);
+}
+
+.preparatioText {
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 4vh;
+}
+
+.section h4 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.plusIcon {
+  font-size: 50px;
+  margin-left: 10px;
+  user-select: none;
+}
+
+.section p {
+  font-size: 25px;
+  color: rgb(253, 252, 252);
+}

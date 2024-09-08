@@ -1,0 +1,56 @@
+.implantsContainer {
+  background-color: #cdf3ad;
+  height: 80vh;
+  padding: 20px;
+  box-sizing: border-box; /* Враховує padding у висоті та ширині */
+  /* max-width: 1200px; Максимальна ширина контейнера */
+  /* margin: 0 auto; Центрування контейнера на сторінці */
+  /* padding: 20px; Внутрішні відступи для розділу */
+}
+
+.implantsContainer h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative; /* Додаємо позиціонування */
+  padding-bottom: 10px; /* Відступ від тексту до лінії */
+}
+
+.implantsContainer h3::after {
+  content: '';
+  display: block;
+  width: 90%; /* Довжина лінії (50% ширини заголовка) */
+  height: 2px; /* Висота лінії */
+  background-color: #0a07eb; /* Колір лінії (чорний) */
+  margin: 0 auto; /* Центрування лінії */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.implants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(60vh - 40px); /* Висота з урахуванням padding */
+}
+
+.leftImplants {
+  flex: 1;
+  padding-right: 25px;
+  font-size: 23px;
+  font-weight: 400;
+  box-sizing: border-box; /* Враховує padding у ширині */
+  /* overflow-y: auto; Додає скроллбар при перевищенні висоти */
+  max-height: 100%; /* Обмеження висоти для лівого блоку */
+}
+
+.implants img {
+  flex: 1;
+  max-width: 48%;
+  height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+}
