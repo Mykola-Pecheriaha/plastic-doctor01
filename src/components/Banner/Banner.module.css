@@ -1,0 +1,63 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.banner h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.details {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details li {
+  margin-bottom: 0.5em;
+}
+
+.moreInfoButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.moreInfoButton:hover {
+  background-color: #0056b3;
+}
+
+.doctorImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.operationImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
